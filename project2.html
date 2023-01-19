@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride a Bicycle 🚴🏻‍♀️</title>
+
+    <style>
+      body {
+        background: #dde0ab;
+        font-family: "Times New Roman", Times, serif;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        font-size: 18px;
+        line-height: normal;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid
+          linear-gradient(
+            109.6deg,
+            rgb(36, 45, 57) 11.2%,
+            rgb(16, 37, 60) 51.2%,
+            rgb(0, 0, 0) 98.6%
+          );
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        font-size: 18px;
+        border-radius: 8px;
+        padding: 10px 15px;
+        transition: all 150ms all ease-in-out;
+        color: white;
+      }
+
+      button:hover {
+        background: #feffdf;
+        color: black;
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #feffdf;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+      }
+
+      .change-theme-button {
+        font-size: 12px;
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        color: #feffdf;
+        padding: 5 8px;
+      }
+
+      .change-theme-button:hover {
+        color: black;
+        background: #feffdf;
+      }
+
+      .rent-button {
+        font-size: 16px;
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        color: #feffdf;
+      }
+
+      .rent-button:hover {
+        color: black;
+        background-color: #feffdf;
+      }
+
+      .bike-intro-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .bike-intro-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.1);
+      }
+
+      .bike-1 {
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .bike-1:hover {
+        filter: contrast(80%);
+        transform: scale(1.2);
+      }
+      .bike-2 {
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .bike-2:hover {
+        filter: contrast(80%);
+        transform: scale(1);
+      }
+      .bike-3 {
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .bike-3:hover {
+        filter: contrast(80%);
+        transform: scale(1);
+      }
+      .bike-4 {
+        border-radius: 8px;
+        transition: all 150ms ease-in-out;
+      }
+
+      .bike-4:hover {
+        filter: contrast(80%);
+        transform: scale(1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 15px;
+      }
+
+      .grid img {
+        width: 400px;
+        border-radius: 8px;
+      }
+
+      .grid img:hover {
+        transform: scale(1.2);
+      }
+
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark a {
+        color: #dde0ab;
+      }
+
+      .dark footer {
+        color: white;
+      }
+
+      @media (max-width: 650px) {
+        .books-grid {
+          grid-template-columns: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button id="change-theme-button" class="change-theme-button">
+      Change theme
+    </button>
+    <div class="container">
+      <h1>Ride a Bicycle</h1>
+      <h2>My favorite type of transport in Amsterdam</h2>
+      <a href="https://www.youtube.com/watch?v=sEON08d76oE" target="_blank">
+        <img
+          src="https://media.istockphoto.com/id/516019979/nl/foto/amsterdam-summer-sunrise.jpg?s=612x612&w=0&k=20&c=I3mC80msqJO-mdece--ULI_gD1LPT_qh0qtSCGNyaCo="
+          alt=""
+          class="bike-intro-picture"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://media.istockphoto.com/id/1416056985/nl/foto/cycling-commute-in-amsterdam-the-netherlands.jpg?s=612x612&w=0&k=20&c=j7wqNC1-aZTcgpkV2btP7VheyjCT2AexPAJMt0zVuxQ="
+          alt=""
+          class="bike-1"
+        />
+
+        <img
+          src="https://media.istockphoto.com/id/806820316/nl/foto/amsterdam-fiets-parkeren-bij-centraalstation.jpg?s=612x612&w=0&k=20&c=-DhAu-yWh_lp25CnmU-1MGJQ6qzTqey09RNGQoNDRW8="
+          alt=""
+          class="bike-2"
+        />
+
+        <img
+          src="https://media.istockphoto.com/id/864722142/nl/foto/een-vrouw-rijdt-haar-racefiets-langs-de-trans-canada-trail-bikepath-in-de-buurt-van-canmore.jpg?s=612x612&w=0&k=20&c=0X7MpLD32di2TWKM490_6MxvncOAGDzUgqNjJzlbDh0="
+          alt=""
+          class="bike-3"
+        />
+
+        <img
+          src="https://media.istockphoto.com/id/957143628/nl/foto/moeder-op-fiets-met-baby-fiets-aanhangwagen-in-park.jpg?s=612x612&w=0&k=20&c=RPFIWIK_A9JtZvu2vx2s3GijsW4YbglzFDGXv8Qyo5A="
+          alt=""
+          class="bike-4"
+        />
+      </div>
+
+      <p>
+        A typical Amsterdam street scene sees countless cyclists either heading
+        to or from work, transporting young children to school, or carrying
+        anything from groceries or house pets to impressively tricky artefacts
+        like ladders or even bulky furniture. With this in mind, it can seem to
+        outsiders like cycling is simply built into the Dutch DNA. In reality,
+        the Netherlands’ renowned cycling prowess is a hard-won combination of
+        urban planning, government spending and people power.
+        <cite>-IamAmsterdam</cite>
+        <br />
+        <br />
+
+        <a
+          href="https://www.iamsterdam.com/en/plan-your-trip/getting-around/cycling"
+          target="_blank"
+        >
+          <em>More information</em>
+          <br />
+          <br />
+        </a>
+        <button id="rent-button" class="rent-button">Rent a Bicycle</button>
+      </p>
+    </div>
+
+    <footer>
+      Coded by
+      <a
+        href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+        target="_blank"
+        >Gamze Senyurek</a
+      >
+    </footer>
+    <script>
+      function rent() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+
+        alert("Thank you " + name + " ! We're preparing your order!");
+      }
+
+      function toggleTheme() {
+        if (theme === "light") {
+          theme = "dark";
+          document.querySelector("body").classList.add("dark");
+        } else {
+          theme = "light";
+          document.querySelector("body").classList.remove("dark");
+        }
+      }
+
+      let button = document.querySelector("#rent-button");
+      button.addEventListener("click", rent);
+
+      let theme = "dark";
+      let themeButton = document.querySelector("#change-theme-button");
+      themeButton.addEventListener("click", toggleTheme);
+    </script>
+  </body>
+</html>
