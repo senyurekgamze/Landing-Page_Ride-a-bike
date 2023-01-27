@@ -1,0 +1,182 @@
+body {
+  background: #c6e1c4;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid
+    linear-gradient(
+      109.6deg,
+      rgb(36, 45, 57) 11.2%,
+      rgb(16, 37, 60) 51.2%,
+      rgb(0, 0, 0) 98.6%
+    );
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  transition: all 150ms all ease-in-out;
+  color: white;
+}
+
+button:hover {
+  background: #feffdf;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #f8fcfb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.change-theme-button {
+  font-size: 12px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  color: #feffdf;
+  padding: 5 8px;
+}
+
+.change-theme-button:hover {
+  color: black;
+  background: #feffdf;
+}
+
+.rent-button {
+  font-size: 16px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  color: #feffdf;
+}
+
+.rent-button:hover {
+  color: black;
+  background-color: #feffdf;
+}
+
+.bike-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.bike-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
+
+.bike-1 {
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.bike-1:hover {
+  filter: contrast(80%);
+  transform: scale(1.2);
+}
+.bike-2 {
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.bike-2:hover {
+  filter: contrast(80%);
+  transform: scale(1);
+}
+.bike-3 {
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.bike-3:hover {
+  filter: contrast(80%);
+  transform: scale(1);
+}
+.bike-4 {
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.bike-4:hover {
+  filter: contrast(80%);
+  transform: scale(1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.grid img {
+  width: 400px;
+  border-radius: 8px;
+}
+
+.grid img:hover {
+  transform: scale(1.2);
+}
+
+.dark {
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark a {
+  color: #dde0ab;
+}
+
+.dark footer {
+  color: white;
+}
