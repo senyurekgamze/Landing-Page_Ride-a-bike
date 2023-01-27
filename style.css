@@ -73,13 +73,13 @@ footer {
     rgb(16, 37, 60) 51.2%,
     rgb(0, 0, 0) 98.6%
   );
-  color: #feffdf;
+  color: #f8fcfb;
   padding: 5 8px;
 }
 
 .change-theme-button:hover {
   color: black;
-  background: #feffdf;
+  background: #f8fcfb;
 }
 
 .rent-button {
@@ -95,7 +95,7 @@ footer {
 
 .rent-button:hover {
   color: black;
-  background-color: #feffdf;
+  background-color: #f8fcfb;
 }
 
 .bike-intro-picture {
